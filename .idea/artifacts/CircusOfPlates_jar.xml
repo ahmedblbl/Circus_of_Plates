@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CircusOfPlates:jar">
+    <output-path>$PROJECT_DIR$/CircusOfPlates_jar</output-path>
+    <root id="archive" name="CircusOfPlates.jar">
+      <element id="module-output" name="CircusOfPlates" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/engine_v3.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

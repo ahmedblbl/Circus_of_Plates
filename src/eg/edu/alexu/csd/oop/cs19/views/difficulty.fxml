@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane fx:id="startPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" styleClass="startPane" stylesheets="@start.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="eg.edu.alexu.csd.oop.cs19.DifficultyController">
+   <children>
+      <VBox fx:id="vBoxStartBtns" alignment="CENTER" layoutY="600.0" prefHeight="414.0" prefWidth="1920.0" style="-fx-background-color: rgba(0, 0, 0, 0.45); -fx-padding: 30;">
+         <children>
+            <Button fx:id="easyBtn" mnemonicParsing="false" prefHeight="41.0" prefWidth="233.0" text="Easy" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="19.0" />
+               </font>
+            </Button>
+            <VBox prefHeight="20.0" prefWidth="1880.0" />
+            <Button fx:id="mediumBtn" mnemonicParsing="false" prefHeight="41.0" prefWidth="233.0" text="Medium" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="19.0" />
+               </font>
+            </Button>
+            <VBox prefHeight="20.0" prefWidth="1880.0" />
+            <Button fx:id="hardBtn" mnemonicParsing="false" prefHeight="41.0" prefWidth="233.0" text="Hard" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="19.0" />
+               </font>
+            </Button>
+            <VBox prefHeight="100.0" prefWidth="1880.0" />
+            <Button fx:id="backBtn" mnemonicParsing="false" onAction="#backBtnPressed" prefHeight="41.0" prefWidth="233.0" text="Back" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="19.0" />
+               </font>
+            </Button>
+         </children></VBox>
+   </children>
+</Pane>

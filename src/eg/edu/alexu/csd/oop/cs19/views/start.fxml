@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane fx:id="startPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" styleClass="startPane" stylesheets="@start.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="eg.edu.alexu.csd.oop.cs19.StartController">
+   <children>
+      <VBox fx:id="vBoxStartBtns" alignment="CENTER" layoutY="728.0" prefWidth="1920.0" style="-fx-background-color: rgba(0, 0, 0, 0.45); -fx-padding: 20;">
+         <children>
+            <Button fx:id="newGameBtn" alignment="CENTER" mnemonicParsing="false" onAction="#newGameBtnPressed" prefHeight="35.0" prefWidth="263.0" styleClass="button" stylesheets="@start.css" text="New Game" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="22.0" />
+               </font>
+            </Button>
+            <VBox prefHeight="14.0" prefWidth="1200.0" />
+            <Button fx:id="optionsBtn" alignment="CENTER" mnemonicParsing="false" onAction="#optionsBtnPressed" prefHeight="35.0" prefWidth="263.0" styleClass="button" stylesheets="@start.css" text="Options" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="22.0" />
+               </font>
+            </Button>
+            <VBox prefHeight="96.0" prefWidth="1200.0" />
+            <Button fx:id="exitBtn" alignment="CENTER" mnemonicParsing="false" onAction="#exitBtnPressed" prefHeight="35.0" prefWidth="263.0" styleClass="button" stylesheets="@start.css" text="Exit" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="22.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</Pane>
